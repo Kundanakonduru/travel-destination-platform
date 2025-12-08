@@ -52,6 +52,7 @@ SCREENSHOTS
 
 2.About Page
 ![image alt](https://github.com/Kundanakonduru/travel-destination-platform/blob/main/Screenshot%202025-12-08%20131651.png)
+![image alt](https://github.com/Kundanakonduru/travel-destination-platform/blob/main/Screenshot%202025-12-08%20131759.png)
 Tours Page
 
 Plan a Trip Page
