@@ -16,26 +16,6 @@ Backend: Java, Node.js, REST APIs
 Database: MySQL
 Routing: React Router
 
-FOLDER STRUCTURE
-project/
-├─ src/
-│  ├─ components/
-│  │  ├─ Navbar.js
-│  │  ├─ Footer.js
-│  │  ├─ Home.js
-│  │  ├─ About.js
-│  │  ├─ Tours.js
-│  │  ├─ Contact.js
-│  │  ├─ PlanTrip.js
-│  │  ├─ Home.css
-│  │  ├─ index.css
-│  ├─ App.js
-│  ├─ index.js
-├─ public/
-│  ├─index.html
-├ package.json
-
-
 INSTALLATION & SETUP:
 1. Clone the repository:
 git clone <your-repo-url>
