@@ -1,5 +1,5 @@
-[Konduru  Kundana_certificate.pdf](https://github.com/user-attachments/files/24037478/Konduru.Kundana_certificate.pdf)![Aboutpage](https://github.com/user-attachments/assets/d0be79b9-c0c8-413a-b88f-66a617a0f1f4)[CC UNIT-2.pdf](https://github.com/user-attachments/files/24037457/CC.UNIT-2.pdf)
-Travel Destination Platform
+
+TITLE:Travel Destination Platform
 
 DESCRIPTION:
 A full-stack travel booking web application that allows users to explore destinations, plan trips, and manage bookings. Built using React.js for the frontend, Java and Node.js for the backend, and MySQL for the database.
