@@ -48,7 +48,8 @@ npm start
 
 SCREENSHOTS
 1.Home Page:
-![image alt](<img width="1912" height="972" alt="Image" src="https://github.com/user-attachments/assets/2046a235-259c-4083-aae9-3dece1236bc9" />)
+
+![Uploading Screenshot 2025-12-08 205959.png…]()
 
 2.About Page
 ![image alt](https://github.com/Kundanakonduru/travel-destination-platform/blob/main/Screenshot%202025-12-08%20131651.png)
