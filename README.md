@@ -59,7 +59,7 @@ SCREENSHOTS
 ![image alt](https://github.com/Kundanakonduru/travel-destination-platform/blob/main/Screenshot%202025-12-08%20132444.png)
 5.Plan a Trip Page
 ![image alt](https://github.com/Kundanakonduru/travel-destination-platform/blob/main/Screenshot%202025-09-09%20205347.png)
-![image alt]()
+![image alt](https://github.com/Kundanakonduru/travel-destination-platform/blob/main/Screenshot%202025-09-09%20205440.png)
 
 USAGE:
 1. Open the app in your browser
