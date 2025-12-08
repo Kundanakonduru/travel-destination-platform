@@ -47,10 +47,10 @@ npm install
 npm start
 
 SCREENSHOTS
+1.Home Page:
+![image alt](https://github.com/Kundanakonduru/travel-destination-platform/blob/main/Screenshot%202025-12-06%20201641.png)
 
-(Replace with your actual screenshots)
 
-Home Page
 
 About Page
 
