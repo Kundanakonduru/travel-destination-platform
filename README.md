@@ -1,4 +1,4 @@
-
+[Konduru  Kundana_certificate.pdf](https://github.com/user-attachments/files/24037478/Konduru.Kundana_certificate.pdf)![Aboutpage](https://github.com/user-attachments/assets/d0be79b9-c0c8-413a-b88f-66a617a0f1f4)[CC UNIT-2.pdf](https://github.com/user-attachments/files/24037457/CC.UNIT-2.pdf)
 Travel Destination Platform
 
 DESCRIPTION:
@@ -52,16 +52,27 @@ SCREENSHOTS
 
 
 
-2.About Page
-![image alt](https://github.com/Kundanakonduru/travel-destination-platform/blob/main/Screenshot%202025-12-08%20131651.png)
-![image alt](https://github.com/Kundanakonduru/travel-destination-platform/blob/main/Screenshot%202025-12-08%20131759.png)
-3.Tours Page
-![image alt](https://github.com/Kundanakonduru/travel-destination-platform/blob/main/Screenshot%202025-12-08%20132143.png)
-4.Contact Page
-![image alt](https://github.com/Kundanakonduru/travel-destination-platform/blob/main/Screenshot%202025-12-08%20132444.png)
-5.Plan a Trip Page
-![image alt](https://github.com/Kundanakonduru/travel-destination-platform/blob/main/Screenshot%202025-09-09%20205347.png)
-![image alt](https://github.com/Kundanakonduru/travel-destination-platform/blob/main/Screenshot%202025-09-09%20205440.png)
+2.About Page:
+
+![About](https://github.com/user-attachments/assets/f4407840-8e48-4fe6-9868-6552117b445f)
+
+
+![Aboutpage](https://github.com/user-attachments/assets/5a946abe-2818-4f18-8a9d-5e8a761a460a)
+
+
+3.Tours Page:
+![Tours](https://github.com/user-attachments/assets/a4388e48-578d-4154-b664-6ac148e81f77)
+
+![Tours1](https://github.com/user-attachments/assets/c4811036-01ba-4b85-8b51-16eb05f89ac7)
+
+
+4.Contact Page:
+![contact](https://github.com/user-attachments/assets/f7c765f3-f4f5-430c-9fb0-8224bbe62b57)
+
+5.Plan a Trip Page:
+![PlanaTrip](https://github.com/user-attachments/assets/84d44fc4-af67-479c-93ea-72c86e9ad354)
+
+![PlanaTripsuccesful](https://github.com/user-attachments/assets/8ea43f63-07a2-475c-b93a-6053ae0c6e54)
 
 USAGE:
 1. Open the app in your browser
