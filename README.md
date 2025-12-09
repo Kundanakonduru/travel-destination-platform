@@ -16,6 +16,9 @@ Backend: Java, Node.js, REST APIs
 Database: MySQL
 Routing: React Router
 
+FOLDER STRUCTURE:
+
+
 INSTALLATION & SETUP:
 1. Clone the repository:
 git clone <your-repo-url>
