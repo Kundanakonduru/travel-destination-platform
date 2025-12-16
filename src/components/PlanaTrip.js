@@ -1,8 +1,5 @@
-// src/pages/planatrip.js
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-
-/* Destination → { location, price }  */
 const catalog = {
   manali: { location: "Himachal Pradesh", price: 8000 },
   darjeeling: { location: "West Bengal", price: 7000 },
@@ -32,7 +29,6 @@ const catalog = {
 
 const allowed = Object.keys(catalog);
 
-/* tomorrow yyyy-mm-dd */
 const tomorrow = new Date(Date.now() + 86400000)
   .toISOString()
   .split("T")[0];
@@ -48,28 +44,21 @@ const PlanaTrip = () => {
     date: "",
     mode: "Flight",
   });
-
   const [msg, setMsg] = useState({ text: "", type: "" });
-
   const handle = (e) =>
-    setForm({ ...form, [e.target.name]: e.target.value });
-
+  setForm({ ...form, [e.target.name]: e.target.value });
   const submit = (e) => {
-    e.preventDefault();
-
-    const destKey = (form.destination || "").trim().toLowerCase();
-
-    /* Validate destination */
+  e.preventDefault();
+  const destKey = (form.destination || "").trim().toLowerCase();
     if (!allowed.includes(destKey)) {
       setMsg({
         text:
-          "❌ Destination not found in our catalog. Please choose a place from the Explore cards.",
+          " Destination not found in our catalog. Please choose a place from the Explore cards.",
         type: "error",
       });
       return;
     }
 
-    /* Validate date */
     if (!form.date || form.date < tomorrow) {
       setMsg({
         text: `❌ Please choose a travel date on or after ${tomorrow}.`,
@@ -78,7 +67,7 @@ const PlanaTrip = () => {
       return;
     }
 
-    /* Safe numbers */
+
     const adults = Math.max(0, parseInt(form.passengers || "0", 10));
     const kids = Math.max(0, parseInt(form.children || "0", 10));
 
@@ -90,23 +79,23 @@ const PlanaTrip = () => {
       return;
     }
 
-    const price = catalog[destKey].price; // per adult
+    const price = catalog[destKey].price; 
     const kidCost = kids * 150;
     const total = adults * price + kidCost;
     const location = catalog[destKey].location;
 
     setMsg({
       text: 
-        `🎉 Booking Confirmed!\n\n` +
-        `👤 Name: ${form.name}\n` +
-        `📧 Email: ${form.email}\n` +
-        `📍 Destination: ${form.destination}\n` +
-        `🗺 Location: ${location}\n` +
-        `📅 Date: ${form.date}\n` +
-        `✈ Mode: ${form.mode}\n\n` +
-        `💰 Budget per Adult: ₹${price}\n` +
-        `👶 Children Cost: ₹${kidCost}\n` +
-        `💵 Final Total: ₹${total}`,
+        ` Booking Confirmed!\n\n` +
+        ` Name: ${form.name}\n` +
+        ` Email: ${form.email}\n` +
+        ` Destination: ${form.destination}\n` +
+        ` Location: ${location}\n` +
+        ` Date: ${form.date}\n` +
+        ` Mode: ${form.mode}\n\n` +
+        ` Budget per Adult: ₹${price}\n` +
+        ` Children Cost: ₹${kidCost}\n` +
+        ` Final Total: ₹${total}`,
       type: "success",
     });
   };
