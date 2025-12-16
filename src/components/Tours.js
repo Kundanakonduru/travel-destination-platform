@@ -1,12 +1,9 @@
-// src/pages/Tours.js
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Tours = () => {
   const navigate = useNavigate();
-
-  /* ----------  STYLES ---------- */
   const sectionStyle = {
     display: "flex",
     alignItems: "flex-start",
@@ -15,16 +12,11 @@ const Tours = () => {
   const imageStyle = { width: 300, height: 300, marginRight: 40 };
   const textStyle = { textAlign: "center" };
   const paragraphStyle = { fontSize: 20, lineHeight: "30px", letterSpacing: 1 };
-
-  /* ----------  STATE ---------- */
-  const [selectedTrip, setSelectedTrip] = useState(null); // shows transport buttons
-  const [openDetails, setOpenDetails] = useState(null); // details toggle
-
-  /* ----------  HELPERS ---------- */
+  const [selectedTrip, setSelectedTrip] = useState(null); 
+  const [openDetails, setOpenDetails] = useState(null); 
   const handlePlanClick = (name) =>
     setSelectedTrip((prev) => (prev === name ? null : name));
-
-  const renderTripOptions = (name) =>
+ const renderTripOptions = (name) =>
     selectedTrip === name && (
       <div className="btn-group mt-2">
         {["Bus", "Train", "Flight"].map((mode) => (
@@ -43,8 +35,6 @@ const Tours = () => {
         ))}
       </div>
     );
-
-  /* ----------  REUSABLE CARD ---------- */
   const Destination = ({
     name,
     img,
