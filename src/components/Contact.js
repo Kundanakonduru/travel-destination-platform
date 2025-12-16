@@ -11,7 +11,6 @@ const Contact = () => {
   const [errors, setErrors] = useState({});
   const [submitted, setSubmitted] = useState(false);
 
-  // Handle form input change
   const handleChange = (e) => {
     setFormData(prev => ({
       ...prev,
@@ -19,8 +18,6 @@ const Contact = () => {
     }));
     setErrors(prev => ({ ...prev, [e.target.name]: '' }));
   };
-
-  // Simple validation
   const validate = () => {
     const newErrors = {};
     if (!formData.name.trim()) newErrors.name = 'Name is required';
@@ -33,7 +30,6 @@ const Contact = () => {
     return newErrors;
   };
 
-  // Handle form submit
   const handleSubmit = (e) => {
     e.preventDefault();
     const formErrors = validate();
@@ -43,7 +39,6 @@ const Contact = () => {
     } else {
       setErrors({});
       setSubmitted(true);
-      // You can add form submission logic here (e.g., API call)
       console.log('Form submitted', formData);
       setFormData({ name: '', email: '', subject: '', message: '' });
     }
