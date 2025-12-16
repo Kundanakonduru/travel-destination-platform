@@ -1,4 +1,4 @@
-// src/components/About.js
+
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -49,7 +49,6 @@ const About = () => {
       ],
     },
 
-    // Beaches
     {
       title: "Beaches",
       img: "https://tse4.mm.bing.net/th?id=OIP.APVT4FubNyHcRGSielOI6wHaE8&pid=Api&P=0",
@@ -77,7 +76,6 @@ const About = () => {
       ],
     },
 
-    // Spiritual
     {
       title: "Spiritual Destinations",
       img: "https://www.authenticindiatours.com/app/uploads/2024/03/Hampi-940x585-c-default.jpg",
@@ -104,8 +102,6 @@ const About = () => {
         },
       ],
     },
-
-    // Adventure
     {
       title: "Adventures",
       img: "https://tse3.mm.bing.net/th?id=OIP.dzwfKbd8ALreqSap4_MLiQHaE7&pid=Api&P=0",
